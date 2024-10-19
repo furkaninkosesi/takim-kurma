@@ -8,7 +8,7 @@ function EditPlayers() {
   const [isAuthenticated, setIsAuthenticated] = useState(false); 
 
   const correctPassword = "admins"; 
-  const apiUrl = "http://80.253.246.117:5000/players"; 
+  const apiUrl = "https://generalstakimkur.netlify.app/api/players"; 
 
   useEffect(() => {
     fetch(apiUrl)
