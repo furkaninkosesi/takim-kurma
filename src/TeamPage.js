@@ -8,7 +8,7 @@ function App() {
 
   // 1. Backend'den mevcut oyuncuları çekme
   useEffect(() => {
-    fetch("https://generalstakimkur.netlify.app/api/players")
+    fetch("https://80.253.246.117:5000/players")
       .then((response) => response.json())
       .then((data) => {
         console.log("Backend'den gelen veri:", data);
